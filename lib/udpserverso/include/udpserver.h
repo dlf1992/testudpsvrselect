@@ -30,7 +30,6 @@
 
 using namespace std;
 
-#define MAX_EVENT 1024   //epoll_events的最大个数
 #define THREAD_NUM 5
 class UdpServer
 {

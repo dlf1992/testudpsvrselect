@@ -38,6 +38,8 @@ bool UdpServer::init(unsigned short svrport,pudpFun callback)
         return false;
     }
 	//printf("UdpServer init success.\n");
+	//设置非阻塞
+	setnonblocking(sockfd);
 	return true;
     //pool = new threadpool<BaseTask>(threadnum);  //创建线程池	
 }
