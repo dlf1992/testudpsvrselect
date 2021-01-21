@@ -2,7 +2,7 @@
 #Time: 2020/12/21
 
 PRJNAME ?= TM8765
-TARGET = testudpsvr_select
+TARGET = testudpsvrselect
 CURDIR=$(shell pwd)
 BIN_DIR=$(CURDIR)/bin
 
